@@ -1,7 +1,7 @@
 # T20-Match-Prediction-Model-Using-Neural-Network
 This project is an advanced T20 Cricket Match Score Predictor designed using Neural Networks and Machine Learning techniques. It predicts the total score of a batting team based on several match-related features, providing real-time insights and aiding strategy development.
 
-🚀 ## Key Features:
+ ## Key Features:
 
 Real-Time Score Prediction with interactive widgets
 
@@ -11,7 +11,7 @@ User-friendly Web Interface for quick predictions
 
 Analysis of model performance with key evaluation metrics
 
-📊 Tech Stack:
+## Tech Stack:
 
 Languages: Python
 
@@ -19,7 +19,7 @@ Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras, 
 
 Tools: Jupyter Notebook
 
-📂 Project Structure:
+## Project Structure:
 
 Data Preprocessing:
 
@@ -29,7 +29,7 @@ Label Encoding for categorical data
 
 Min-Max Scaling for numerical stability
 
-Model Development:
+## Model Development:
 
 Input Layer: Features include venue, batting team, bowling team, batsman, and bowler
 
@@ -41,7 +41,7 @@ Loss Function: Huber Loss for handling outliers
 
 Optimizer: Adam Optimizer
 
-Model Evaluation:
+## Model Evaluation:
 
 Metrics: Mean Absolute Error (MAE), Validation Loss
 
@@ -53,22 +53,11 @@ Dropdown widgets for selecting venue, batting team, bowling team, batsman, and b
 
 Real-time score prediction with a simple button click
 
-⚙️ Installation Guide:
-
-Clone the Repository:
-
-git clone https://github.com/your-username/t20-score-predictor.git
-cd t20-score-predictor
-
-Install Dependencies:
-
-pip install -r requirements.txt
-
 Run the Notebook:
 
-jupyter notebook
+GoogleColab
 
-🎯 How It Works:
+## How It Works:
 
 Select the match conditions (venue, teams, players) using the dropdowns.
 
@@ -76,7 +65,7 @@ Click the "Predict Score" button.
 
 The predicted score will be displayed based on the trained model.
 
-📊 Model Performance:
+## Model Performance:
 
 MAE: Low error margins indicating high accuracy
 
@@ -84,7 +73,7 @@ Residual Distribution: Centered around zero, showing unbiased predictions
 
 Loss vs Epochs: Smooth convergence without overfitting
 
-⚡ Challenges & Limitations:
+## Challenges & Limitations:
 
 Limited handling of unseen players or venues
 
@@ -92,18 +81,6 @@ Potential bias due to historical data dependency
 
 Difficulty in extreme score predictions
 
-🤝 Contributing:
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-branch)
-
-Commit your changes (git commit -m 'Add new feature')
-
-Push to the branch (git push origin feature-branch)
-
-Open a Pull Request
-
-📜 License:
+## License:
 
 This project is open-source and available for educational and non-commercial use.
