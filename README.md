@@ -17,7 +17,7 @@ Languages: Python
 
 Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, Keras, ipywidgets
 
-Tools: Jupyter Notebook
+Tools: Google Colab
 
 ## Project Structure:
 
